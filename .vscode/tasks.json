@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "nodemon ./main.js"
+		},
+		{
+			"type": "npm",
+			"script": "dev-quiet",
+			"problemMatcher": [
+				"$eslint-compact"
+			],
+			"label": "npm: dev-quiet",
+			"detail": "nodemon -q ./main.js"
+		}
+	]
+}
