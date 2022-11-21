@@ -16,6 +16,8 @@ Start making changes to your *main.js* file.
 
 # Exercise requirement:
 
+You can skip the onEnroll stuff until the end if it's too confusing.
+
 Create a **Person** class that has a "name" attribute.
 Create a Student class that extends the Person class. Student class has "year", "onEnroll" and "grade" attributes.
 Give the student class default attributes: year is -1, onEnroll is an empty arrow function, grade is -1.
@@ -30,8 +32,8 @@ Make a static function in Academy class called "**exam**" that gives all student
 Make a static function called "**graduate**" that returns all students that have a score of 6 or higher.
 
 Make a static function called "**studentLevels**" that returns an array that looks like this: ["Failed", "Average", "Above Average", "Great"], where each string is decided if their grade is:
-5 - > failed
-6 - 7 -> Average
+5 - > Failed
+5 - 7 -> Average
 7 - 8 -> Above Average
 8 - 10 -> Great.
 
@@ -39,7 +41,7 @@ Make a static function in the Academy class, called "**failedStudents**" that re
 
 # Create an academy.
 Create an arrow function that prints "I'm happy to join!";
-Create 10 students, for each student set their onEnroll function to that arrow function. Add students to the academy.
+Create 5 students, for each student set their onEnroll function to that arrow function. Add students to the academy.
 
 Run the exam() function on this academy, and print the successful students and the failed students.
 
